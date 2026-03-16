@@ -32,6 +32,10 @@
 ## 2. NetAcad progress (Module 1)
 - Completed items: [1.1 / 1.2 / 1.3]
 - Screenshot(s): 
+
+
+
+
 ![Скриншот](images/netacad.png)
 
 ## 3. VM evidence
@@ -45,6 +49,13 @@
 - `schemas/day1_summary.schema.json` : [Yes]
 - `artifacts/day1/summary.json` : [Yes]
 - `artifacts/day1/response.json` : [Yes]
+
+
+
+
+
+
+
 ![Скриншот](images/files.png)
 ### 5. Script run
 ```json
