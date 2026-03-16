@@ -5,6 +5,7 @@
 - Group: ИБ-23-5б
 - GitHub repo: https://github.com/zxcsalam/devnet-day1-IB_23_5b-massalimov/tree/master
 - Day1 Token: [D1-....]
+```json
 {
   "api": {
     "response_sha256": "ffefdf50d54770c2a20ba143e42daa910535c20ec5ca7a1e449dac71729f00fe",
@@ -25,6 +26,7 @@
     "token": "D1-IB-23-5b-11-7A51"
   }
 }
+'''
 
 
 ## 2. NetAcad progress (Module 1)
@@ -45,6 +47,7 @@
 - `artifacts/day1/response.json` : [Yes]
 ![Скриншот](images/files.png)
 ### 5. Script run
+```json
 {
   "api": {
     "response_sha256": "ffefdf50d54770c2a20ba143e42daa910535c20ec5ca7a1e449dac71729f00fe",
@@ -65,6 +68,7 @@
     "token": "D1-IB-23-5b-11-7A51"
   }
 }
+'''
 ## Pytest
 .                                                                        [100%]
 1 passed in 0.45s
@@ -75,7 +79,9 @@
 ### 6. Learn
 
 Научился разворачивать рабочее окружение в DEVASC VM и работать с виртуальными средами Python venv.
+
 Освоил валидацию данных с помощью JSON Schema для автоматической проверки структуры отчетов.
+
 Закрепил навыки работы с Git: использование .gitignore, работу с удаленными репозиториями и важность осмысленных коммитов.
 
 ### 7. Problems
