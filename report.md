@@ -26,7 +26,7 @@
     "token": "D1-IB-23-5b-11-7A51"
   }
 }
-'''
+```
 
 
 ## 2. NetAcad progress (Module 1)
@@ -68,7 +68,8 @@
     "token": "D1-IB-23-5b-11-7A51"
   }
 }
-'''
+```
+
 ## Pytest
 .                                                                        [100%]
 1 passed in 0.45s
