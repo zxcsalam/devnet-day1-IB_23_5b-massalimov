@@ -38,12 +38,12 @@
 
 
 
-![Скриншот](images/netacad.png)
+![Скриншот](images/day1/netacad.png)
 
 ## 3. VM evidence
 - File: `artifacts/day1/env.txt` exists: [Yes]
 - Screenshot(s):
-![Скриншот](images/env.png)
+![Скриншот](images/day1/env.png)
 
 ## 4. Repo structure (must match assignment)
 - `src/day1_api_hello.py` : [Yes]
@@ -58,7 +58,7 @@
 
 
 
-![Скриншот](images/files.png)
+![Скриншот](images/day1/files.png)
 ### 5. Script run
 ```json
 {
@@ -87,8 +87,8 @@
 .                                                                        [100%]
 1 passed in 0.45s
 
-![Скриншот](images/day1_api_hello.png)
-![Скриншот](images/pytest.png)
+![Скриншот](images/day1/day1_api_hello.png)
+![Скриншот](images/day1/pytest.png)
 
 ### 6. Learn
 
