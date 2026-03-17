@@ -103,3 +103,5 @@
 Problem: При запуске pytest возникала ошибка ModuleNotFoundError: No module named 'jsonschemaPyth'. Также VS Code не видел установленные библиотеки и подчеркивал типы list[str] красным.
 
 Fix: Исправил опечатку в импорте. Для поддержки современного синтаксиса аннотаций типов в Python 3.8 добавил from __future__ import annotations. В VS Code сменил интерпретатор на путь из .venv, чтобы редактор подтянул установленные пакеты.
+
+Day2 B: Working on formats
