@@ -6,7 +6,7 @@
     "validation_errors": [],
     "validation_passed": true
   },
-  "generated_utc": "2026-03-16T09:49:46.613641+00:00",
+  "generated_utc": "2026-03-17T09:01:43.417930+00:00",
   "run": {
     "platform": "linux",
     "python": "3.8.2"
@@ -14,7 +14,7 @@
   "schema_version": "1.0",
   "student": {
     "group": "IB-23-5b",
-    "name": "Massalimov",
+    "name": "Massalimov-Ilyas",
     "token": "D1-IB-23-5b-11-7A51"
   }
 }
