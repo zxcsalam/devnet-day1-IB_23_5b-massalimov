@@ -1,0 +1,15 @@
+{
+  "api_key_sha256": "9ba4c5033ddc1d0afbf466c8f344e9d42360f169f17f449fba9d3a44ec98a0db",
+  "request": {
+    "author": "Massalimov-Ilyas",
+    "id": 5011,
+    "isbn": "978-118621b72d",
+    "title": "My DevNet Book 8621b72d"
+  },
+  "response": {
+    "author": "Massalimov-Ilyas",
+    "id": 5011,
+    "title": "My DevNet Book 8621b72d"
+  },
+  "status_code": 200
+}

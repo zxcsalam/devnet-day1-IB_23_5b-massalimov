@@ -1,0 +1,42 @@
+{
+  "count": 6,
+  "items": [
+    {
+      "author": "Massalimov-Ilyas",
+      "id": 5011,
+      "isbn": "978-118621b72d",
+      "title": "My DevNet Book 8621b72d"
+    },
+    {
+      "author": "Massalimov-Ilyas",
+      "id": 8200,
+      "isbn": "978-1-07-684936-6",
+      "title": "Profound full-range system engine [8621b72d]"
+    },
+    {
+      "author": "Massalimov-Ilyas",
+      "id": 8201,
+      "isbn": "978-0-8395-4675-7",
+      "title": "Enhanced interactive contingency [8621b72d]"
+    },
+    {
+      "author": "Massalimov-Ilyas",
+      "id": 8202,
+      "isbn": "978-0-8423-2165-5",
+      "title": "Profit-focused human-resource interface [8621b72d]"
+    },
+    {
+      "author": "Massalimov-Ilyas",
+      "id": 8203,
+      "isbn": "978-1-924572-62-0",
+      "title": "Profit-focused scalable archive [8621b72d]"
+    },
+    {
+      "author": "Massalimov-Ilyas",
+      "id": 8204,
+      "isbn": "978-0-317-25565-2",
+      "title": "Reduced hybrid structure [8621b72d]"
+    }
+  ],
+  "status_code": 200
+}
