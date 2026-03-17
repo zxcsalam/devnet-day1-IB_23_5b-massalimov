@@ -1,0 +1,18 @@
+*   cf36131 (HEAD -> master) Resolve README conflict (Day2)
+|\  
+| * 48fe921 (feature/day2-readme-B) edit REPORT from B
+* | 1ebddbe (feature/day2-readme-A) edit REPORT from A
+|/  
+| * 4662284 (origin/feature/day2-dataformats, feature/day2-dataformats) docs: add PR link
+| * c71dad3 feat: add day2 formats generator and schemas
+|/  
+* d5f21d4 edit:report.md
+* 9d541ed (origin/master) docs: edit day 1 report
+* b88758f docs: edit day 1 report
+* b49434c docs: edit day 1 report
+* 3dd2cb5 docs: edit day 1 report
+* 66aee7d docs: finalize day 1 report
+* b0f1404 test: add unit tests and generate artifacts
+* c503851 docs: add JSON schema for summary validation
+* df19409 feat: add main API script and env example
+* ac58a6a chore: setup initial project structure and gitignore
