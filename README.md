@@ -1,1 +1,1 @@
-devnet-day1-D1-IB-23-5b-11-7A51
+Practice in programming and automation basics for the IB-23-5b group using DEVASC
