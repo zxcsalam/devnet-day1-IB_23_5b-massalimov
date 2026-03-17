@@ -36,6 +36,8 @@
 
 
 
+
+
 ![Скриншот](images/netacad.png)
 
 ## 3. VM evidence
