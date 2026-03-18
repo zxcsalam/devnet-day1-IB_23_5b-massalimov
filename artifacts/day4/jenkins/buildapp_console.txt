@@ -1,0 +1,55 @@
+Started by user admin
+
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/BuildAppJob
+The recommended git tool is: NONE
+using credential github-creds
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/BuildAppJob/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/zxcsalam/devnet-day1-IB_23_5b-massalimov # timeout=10
+Fetching upstream changes from https://github.com/zxcsalam/devnet-day1-IB_23_5b-massalimov
+ > git --version # timeout=10
+ > git --version # 'git version 2.47.3'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- https://github.com/zxcsalam/devnet-day1-IB_23_5b-massalimov +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision ae2c254264a3f713db69ea8b9dc7aa6d35e3dea8 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ae2c254264a3f713db69ea8b9dc7aa6d35e3dea8 # timeout=10
+Commit message: "Add Day 4 lab files"
+ > git rev-list --no-walk ae2c254264a3f713db69ea8b9dc7aa6d35e3dea8 # timeout=10
+[BuildAppJob] $ /bin/sh -xe /tmp/jenkins11007565035365361038.sh
++ docker rm -f samplerunning
+samplerunning
++ bash ./sample-app.sh
+Sending build context to Docker daemon  5.632kB
+
+Step 1/8 : FROM python:3.9-slim
+ ---> 085da638e1b8
+Step 2/8 : RUN pip install --progress-bar off flask
+ ---> Using cache
+ ---> a02f7378faa3
+Step 3/8 : COPY ./static /home/myapp/static/
+ ---> Using cache
+ ---> 6e8d56607f13
+Step 4/8 : COPY ./templates /home/myapp/templates/
+ ---> Using cache
+ ---> 2d70dc727dba
+Step 5/8 : COPY sample_app.py /home/myapp/
+ ---> Using cache
+ ---> d43f8b9bddad
+Step 6/8 : EXPOSE 5050
+ ---> Using cache
+ ---> f55039af3793
+Step 7/8 : ENV STUDENT_TOKEN=
+ ---> Using cache
+ ---> 66ae431060c1
+Step 8/8 : CMD python3 /home/myapp/sample_app.py
+ ---> Using cache
+ ---> c9bd3587ad1c
+Successfully built c9bd3587ad1c
+Successfully tagged sampleapp:day4
+c44163fcc920eb77c8b746eaf400c0a35606b3c4b10536e53a7246d19b4938d6
+Triggering a new build of TestAppJob
+
+Finished: SUCCESS

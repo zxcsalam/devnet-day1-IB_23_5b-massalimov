@@ -1,0 +1,47 @@
+Started by user admin
+
+[Pipeline] Start of Pipeline
+[Pipeline] node
+Running on Jenkins
+ in /var/jenkins_home/workspace/SamplePipeline
+[Pipeline] {
+[Pipeline] stage
+[Pipeline] { (Preparation)
+[Pipeline] catchError
+[Pipeline] {
+[Pipeline] sh
++ docker stop samplerunning
+samplerunning
+[Pipeline] sh
++ docker rm samplerunning
+samplerunning
+[Pipeline] }
+[Pipeline] // catchError
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (Build)
+[Pipeline] build (Building BuildAppJob)
+Scheduling project: BuildAppJob
+
+Starting building: BuildAppJob #4
+
+Build BuildAppJob #4
+ completed: SUCCESS
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (Results)
+[Pipeline] build (Building TestAppJob)
+Scheduling project: TestAppJob
+
+Starting building: TestAppJob #1
+
+Build TestAppJob #1
+ completed: SUCCESS
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] }
+[Pipeline] // node
+[Pipeline] End of Pipeline
+Finished: SUCCESS

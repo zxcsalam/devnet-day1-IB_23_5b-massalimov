@@ -1,0 +1,16 @@
+Started by upstream project "BuildAppJob
+" build number 5
+
+originally caused by:
+ Started by user admin
+
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/TestAppJob
+[TestAppJob] $ /bin/sh -xe /tmp/jenkins61531303826718615.sh
++ grep TOKEN_HASH8=8621b72d
++ curl -s http://172.17.0.1:5050/
+    <h2>TOKEN_HASH8=8621b72d</h2>
++ echo SUCCESS
+SUCCESS
++ exit 0
+Finished: SUCCESS
