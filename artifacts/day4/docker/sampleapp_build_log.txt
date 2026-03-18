@@ -1,0 +1,26 @@
+Sending build context to Docker daemon  5.632kB
+Step 1/8 : FROM python:3.9-slim
+ ---> 085da638e1b8
+Step 2/8 : RUN pip install --progress-bar off flask
+ ---> Using cache
+ ---> a02f7378faa3
+Step 3/8 : COPY ./static /home/myapp/static/
+ ---> Using cache
+ ---> 4e2c71db498f
+Step 4/8 : COPY ./templates /home/myapp/templates/
+ ---> Using cache
+ ---> 9b0942cb55aa
+Step 5/8 : COPY sample_app.py /home/myapp/
+ ---> Using cache
+ ---> 005760dbeecb
+Step 6/8 : EXPOSE 8080
+ ---> Using cache
+ ---> e311dce0f89a
+Step 7/8 : ENV STUDENT_TOKEN=D1-IB-23-5b-11-7A51
+ ---> Using cache
+ ---> 73fc0b0d41c4
+Step 8/8 : CMD python3 /home/myapp/sample_app.py
+ ---> Using cache
+ ---> c8f3d7a64000
+Successfully built c8f3d7a64000
+Successfully tagged sampleapp:day4

@@ -1,0 +1,1 @@
+4ea894a8541d78097ef457c003ec9c472f4367aef8ec420f09d8a14de8b3e0eb   sampleapp:day4      "/bin/sh -c 'python3 /home/myapp/sample_app.py'"   2 minutes ago       Up 2 minutes        0.0.0.0:8080->8080/tcp   samplerunning
