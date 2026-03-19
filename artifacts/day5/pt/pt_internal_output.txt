@@ -1,0 +1,14 @@
+Starting REST_APIs (Python3)...
+Service Ticket obtained: NC-146-31fba0a8ecee4eb9ac4a-nbi
+
+Network Devices:
+SWL1 (192.168.101.2) - MultiLayerSwitch
+R1 (192.168.1.2) - Router
+R3 (192.168.2.1) - Router
+SWR1 (10.0.1.2) - MultiLayerSwitch
+SWR2 (10.0.1.3) - MultiLayerSwitch
+R2 (192.168.2.2) - Router
+SWL2 (192.168.102.2) - MultiLayerSwitch
+SWR4 (10.0.1.5) - MultiLayerSwitch
+SWR3 (10.0.1.4) - MultiLayerSwitch
+REST_APIs (Python3) finished running.

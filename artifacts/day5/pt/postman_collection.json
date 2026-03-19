@@ -1,0 +1,49 @@
+{
+	"info": {
+		"_postman_id": "36da3ed4-f833-4fe8-a5c6-0bd78cfda6a3",
+		"name": "day5",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "53259598",
+		"_collection_link": "https://zxcsalam-9707307.postman.co/workspace/krutoipacan's-Workspace~b11cc593-bf17-41d4-89d1-6fd734d4cee4/collection/53259598-36da3ed4-f833-4fe8-a5c6-0bd78cfda6a3?action=share&source=collection_link&creator=53259598"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"username\": \"cisco\", \"password\": \"cisco123!\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:58000/api/v1/ticket",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "58000",
+					"path": [
+						"api",
+						"v1",
+						"ticket"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
