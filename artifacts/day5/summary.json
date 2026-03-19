@@ -1,0 +1,29 @@
+{
+  "schema_version": "5.0",
+  "generated_utc": "2026-03-19T15:19:47.593849+00:00",
+  "student": {
+    "token": "D1-IB-23-5b-11-7A51",
+    "token_hash8": "8621b72d",
+    "name": "Massalimov-Ilyas",
+    "group": "IB-23-5b"
+  },
+  "yang": {
+    "ok": true,
+    "evidence_sha": "949de5d3ee156508fe0af9f6a93bb6b16cf3e397ba9f6ba226e1c50bb5256edb"
+  },
+  "webex": {
+    "ok": true,
+    "room_title_contains_hash8": true,
+    "evidence_sha": "9f963f94f8f65dd4853ae39326fe4d1c91ca084d31e7a98e230453d610da9d55"
+  },
+  "pt": {
+    "ok": true,
+    "empty_ticket_seen": true,
+    "evidence_sha": "7a06bc666b72015739df299f81f0ba6a2d7fc59bf21dcedfd3b3de0b7a1b1042"
+  },
+  "validation_passed": true,
+  "run": {
+    "python": "3.8.2",
+    "platform": "linux"
+  }
+}

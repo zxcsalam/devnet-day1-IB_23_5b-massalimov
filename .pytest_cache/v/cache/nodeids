@@ -1,0 +1,7 @@
+[
+  "tests/test_day1_api_hello.py::test_day1_artifacts_and_schema",
+  "tests/test_day2_data_formats.py::test_day2_generate_and_validate",
+  "tests/test_day3_library_lab.py::test_day3_lab_artifacts_and_rules",
+  "tests/test_day4_labs.py::test_day4_summary_and_required_evidence",
+  "tests/test_day5_module8.py::test_day5_summary_full_validation"
+]
